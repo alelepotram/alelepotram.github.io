@@ -1,13 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap');
 
 body {
-    background-color: black;
+    background-color:white;
     font-family: 'Roboto';
 }
 
-h1 {
-    color: burlywood;
-    text-align: center;
-    font-family: 'Roboto';
-    font-style: oblique;
+.header {
+    color: white;
+    text-align: left;
+    font-family: 'Roboto Condensed';
+
+}
+
+
+.navbar {
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: rgb(7, 102, 102);
+    overflow: hidden;
+    border-radius: 20px;
+
+}
+
+.navbar div{
+    text-align: right;
+    padding: 14px 16px;
+
+}
+
+.navbar a {
+    float: left;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: solid;
+}
+
+.navbar a:hover {
+    background-color: rgb(72, 72, 160);
+    border-radius: 20px;
+}
+
+
+.container h1 {
+    padding-left: 15px;
+    font-family: 'Roboto Condensed';
 }
